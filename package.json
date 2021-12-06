@@ -2,7 +2,7 @@
   "name": "elixiverse-webapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mathexl.github.io/elixiverse",
+  "homepage": "https://elixiverse.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "typescript": "^4.5.2"
   }
 }

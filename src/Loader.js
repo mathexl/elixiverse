@@ -39,6 +39,7 @@ const LoaderDiv = styled.div`
   animation: ${LoaderAnimation} 1s linear 1 3s forwards;
 `;
 
+
 const LoaderContainer = styled.div`
   width: 30vw;
   height: 30vh;
