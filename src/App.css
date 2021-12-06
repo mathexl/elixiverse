@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.hideOnDesktop {
+  display: none !important;
+}
+
+@media screen and (max-width: 700px) {
+  .hideOnMobile {
+    display: none !important;
+  }
+
+  .hideOnDesktop {
+    display: inline-block !important;
+  }
+}
