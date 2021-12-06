@@ -47,6 +47,6 @@
   }
 
   .hideOnDesktop {
-    display: inline-block !important;
+    display: flex !important;
   }
 }
