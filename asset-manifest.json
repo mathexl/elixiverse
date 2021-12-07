@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bfabbffe.chunk.css",
-    "main.js": "/static/js/main.b64fd2db.chunk.js",
-    "main.js.map": "/static/js/main.b64fd2db.chunk.js.map",
+    "main.js": "/static/js/main.dccea43e.chunk.js",
+    "main.js.map": "/static/js/main.dccea43e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b11c32e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.b11c32e4.js.map",
     "static/js/2.2f669187.chunk.js": "/static/js/2.2f669187.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.bfabbffe.chunk.css.map": "/static/css/main.bfabbffe.chunk.css.map",
     "static/js/2.2f669187.chunk.js.LICENSE.txt": "/static/js/2.2f669187.chunk.js.LICENSE.txt",
     "static/media/crena.93b6bebd.svg": "/static/media/crena.93b6bebd.svg",
+    "static/media/fakeCover3D.c583088c.png": "/static/media/fakeCover3D.c583088c.png",
     "static/media/ferashin.ef25ad80.png": "/static/media/ferashin.ef25ad80.png",
     "static/media/kisra.8c56e148.svg": "/static/media/kisra.8c56e148.svg",
     "static/media/logo.11e34662.svg": "/static/media/logo.11e34662.svg",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.b11c32e4.js",
     "static/js/2.2f669187.chunk.js",
     "static/css/main.bfabbffe.chunk.css",
-    "static/js/main.b64fd2db.chunk.js"
+    "static/js/main.dccea43e.chunk.js"
   ]
 }
