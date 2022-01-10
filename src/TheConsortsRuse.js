@@ -11,12 +11,7 @@ export const TheConsortsRuse = () => {
         <h2>Book 1 of the Mira’s Miracles series<span className={"hideOnMobile"}> set in the Elixiverse</span>.</h2>
         <h3>Summary</h3>
         <p>
-          When Mira is kidnapped from the Golden Chateau, she arrives at Daisha,
-          a city thought to be a myth. Oddly, she is given refuge with an
-          opulent, close-knit, but unpopular family. Between Chancellor Quail's
-          bizarre antics, the looming threat of the Consortium and the
-          befuddling world of elixiry, Mira learns the truths about family,
-          trust, and herself. <br></br> <br></br>
+   After discovering there might be more to her friend’s death, Mira travels to Daisha, a city once considered a fairy-tale. In a metropolis plagued by thievery and turmoil, Mira must infiltrate a magical high society to help defeat the Consort, the tyrant responsible for her loss. <br></br> <br></br>
           <span className={"hideOnMobile"}>
             There are no dragons, elves, or sorcerers in the Elixiverse. Rather,
             powers — attained via short-lasting, commercial elixirs — are more
