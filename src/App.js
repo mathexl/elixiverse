@@ -10,7 +10,7 @@ import { TheConsortsRuse } from "./TheConsortsRuse";
 import { ExploreElixirs } from "./ExploreElixirs";
 import { ExploreCrena } from "./ExploreCrena";
 import { FreeShortStory } from "./FreeShortStory";
-import { TicTacToeTai } from "./TicTacToeTai";
+import { FirstChapter } from "./FirstChapter";
 
 const App = () => {
   FontLoader();
@@ -27,7 +27,13 @@ const App = () => {
             page={page}
             setPage={setPage}
             value={"theConsortsRuse"}
-            title={"THE CONSORT'S RUSE"}
+            title={"FIRST BOOK"}
+          ></MappedLink>
+          <MappedLink
+            page={page}
+            setPage={setPage}
+            value={"firstChapter"}
+            title={"FIRST CHAPTER"}
           ></MappedLink>
           <MappedLink
             page={page}
@@ -39,19 +45,13 @@ const App = () => {
             page={page}
             setPage={setPage}
             value={"exploreCrena"}
-            title={"EXPLORE CRENA"}
+            title={"EXPLORE THE INNERMOST"}
           ></MappedLink>
           <MappedLink
             page={page}
             setPage={setPage}
             value={"freeShortStory"}
             title={"FREE SHORT STORY"}
-          ></MappedLink>
-          <MappedLink
-            page={page}
-            setPage={setPage}
-            value={"ticTacToeTai"}
-            title={"TIC-TAC-TOE-TAI"}
           ></MappedLink>
         </Navigation>
         <Navigation className={"hideOnDesktop"}>
@@ -88,7 +88,7 @@ const App = () => {
             {page == "exploreElixirs" && <ExploreElixirs></ExploreElixirs>}
             {page == "exploreCrena" && <ExploreCrena></ExploreCrena>}
             {page == "freeShortStory" && <FreeShortStory></FreeShortStory>}
-            {page == "ticTacToeTai" && <TicTacToeTai></TicTacToeTai>}
+            {page == "firstChapter" && <FirstChapter></FirstChapter>}
           </Interior>
         </Exterior>
       </Main>
@@ -163,7 +163,7 @@ const Navigation = styled.div`
 
 const Link = styled.div`
   color: var(--secondary);
-  width: 160px;
+  width: 200px;
   cursor: pointer;
   opacity: 0.5;
 `;

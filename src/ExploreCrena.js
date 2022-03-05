@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import crena from "./img/crena.svg";
+import innermost from "./img/innermost.svg";
 
 export const ExploreCrena = () => {
   const [left, setLeft] = useState(0);
@@ -48,7 +48,7 @@ export const ExploreCrena = () => {
   return (
     <ExploreCrenaDiv>
       <img
-        src={crena}
+        src={innermost}
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}

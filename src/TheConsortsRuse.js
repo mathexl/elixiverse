@@ -1,25 +1,26 @@
 import styled from "styled-components";
 import { CTA } from "./Splash";
 import { GeneralContent } from "./Styles";
+import cover from "./img/cover.png";
+
 
 export const TheConsortsRuse = () => {
   return (
     <TheConsortsRuseDiv>
-      <TheConsortsRuseCover>Cover TBA</TheConsortsRuseCover>
+      <TheConsortsRuseCover><img src={cover}></img></TheConsortsRuseCover>
       <TheConsortsRuseContent>
         <h1>The Consort’s Ruse</h1>
-        <h2>Book 1 of the Mira’s Miracles series<span className={"hideOnMobile"}> set in the Elixiverse</span>.</h2>
+        <h2>
+          Book 1 of the Mira’s Miracles series
+          <span className={"hideOnMobile"}> set in the Elixiverse</span>.
+        </h2>
         <h3>Summary</h3>
         <p>
-   After discovering there might be more to her friend’s death, Mira travels to Daisha, a city once considered a fairy-tale. In a metropolis plagued by thievery and turmoil, Mira must infiltrate a magical high society to help defeat the Consort, the tyrant responsible for her loss. <br></br> <br></br>
-          <span className={"hideOnMobile"}>
-            There are no dragons, elves, or sorcerers in the Elixiverse. Rather,
-            powers — attained via short-lasting, commercial elixirs — are more
-            likely to produce snobbish fashion enterprises or underground
-            theatrical performances over duels or skirmishes. Make no mistake,
-            combat happens in Daisha aplenty, but Mira is faster to discover the
-            eccentricity of elixiry over its violent power.
-          </span>
+          After discovering there might be more to her sister's death, Mira
+          travels to an illegal underground city. In a
+          metropolis plagued by thievery and turmoil, she must infiltrate a
+          magical high society to defeat the Consort, the tyrant
+          responsible for her loss. <br></br> <br></br>
         </p>
         <h3>Details</h3>
         <p>98,551 words, 377 pages. </p>
@@ -43,17 +44,16 @@ const TheConsortsRuseDiv = styled.div`
       margin-right: 5%;
       display: inline-block;
       margin-top: 20px;
-      background:white;
+      background: white;
       padding: 20px;
       border-radius: 5px;
-      box-sizing:border-box;
+      box-sizing: border-box;
     }
   }
 `;
 
 const TheConsortsRuseCover = styled.div`
   width: 300px;
-  height: 450px;
   border: 5px white solid;
   color: white;
   display: flex;
@@ -61,8 +61,10 @@ const TheConsortsRuseCover = styled.div`
   justify-content: center;
   font-size: 28px;
   font-variant-caps: small-caps;
-  float:left;
-
+  float: left;
+  & > img {
+    width: 100%;
+  }
   @media screen and (max-width: 700px) {
     & {
       display: none;
@@ -73,8 +75,13 @@ const TheConsortsRuseCover = styled.div`
 const TheConsortsRuseContent = styled(GeneralContent)`
   width: calc(100% - 310px);
   padding-left: 50px;
-  box-sizing:border-box;
-  float:left;
+  box-sizing: border-box;
+  float: left;
+
+  & p {
+    font-size: 16px;
+    line-height: 24px;
+  }
   @media screen and (max-width: 700px) {
     & {
       width: 100%;

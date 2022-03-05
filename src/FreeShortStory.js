@@ -25,7 +25,7 @@ const FreeShortStoryDiv = styled.div`
   h1 {
     margin: 0px;
     font-variant: small-caps;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 300;
     text-align: center;
     opacity: 0;
@@ -75,10 +75,10 @@ const FreeShortStoryDiv = styled.div`
 
   p {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     text-indent: 20px;
     margin: 0px;
-    line-height: 36px;
+    line-height: 26px;
     text-align: justify;
     opacity: 0;
     font-family: "Ibarra", "Times New Roman", Times, serif;
