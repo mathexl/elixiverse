@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { CTA } from "./Splash";
 import { GeneralContent } from "./Styles";
-import cover from "./img/cover.png";
+import cover from "./img/cover.jpg";
 
 
 export const TheConsortsRuse = () => {
@@ -17,14 +17,15 @@ export const TheConsortsRuse = () => {
         <h3>Summary</h3>
         <p>
           After discovering there might be more to her sister's death, Mira
-          travels to an illegal underground city. In a
-          metropolis plagued by thievery and turmoil, she must infiltrate a
+          travels to an illegal underground city that'splagued by thievery and turmoil. 
+          There, she must infiltrate a
           magical high society to defeat the Consort, the tyrant
           responsible for her loss. <br></br> <br></br>
         </p>
         <h3>Details</h3>
         <p>98,551 words, 377 pages. </p>
-        <CTA>Sign Up for Updates</CTA>
+        <br></br>
+        <CTA href="http://eepurl.com/hPlauf" target="_blank">Sign Up for Updates</CTA>
       </TheConsortsRuseContent>
     </TheConsortsRuseDiv>
   );

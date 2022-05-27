@@ -8,9 +8,9 @@ export const Splash = () => {
       <h2>Created by M. Pregasen</h2>
       <p>
         Sign up for updates on the Elixiverse’s debut novel, the Consort’s Ruse,
-        coming in late 2022.
+        coming in late 2023.
       </p>
-      <CTA>Sign Up for Updates</CTA>
+      <CTA href={"http://eepurl.com/hPlauf"} target="_blank">Sign Up for Updates</CTA>
       <br></br>
       <br></br>
     </SplashDiv>
@@ -65,10 +65,11 @@ const SplashDiv = styled.div`
   }
 `;
 
-export const CTA = styled.button`
+export const CTA = styled.a`
   background: var(--secondary);
   color: var(--primary);
   border: none;
+  text-decoration:none;
   padding: 10px 40px;
   border-radius: 6px;
   font-family: "GilroyQ";

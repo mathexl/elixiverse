@@ -10,6 +10,7 @@ import { TheConsortsRuse } from "./TheConsortsRuse";
 import { ExploreElixirs } from "./ExploreElixirs";
 import { ExploreCrena } from "./ExploreCrena";
 import { FreeShortStory } from "./FreeShortStory";
+import { Blumsbrew } from "./Blumsbrew";
 import { FirstChapter } from "./FirstChapter";
 
 const App = () => {
@@ -45,13 +46,19 @@ const App = () => {
             page={page}
             setPage={setPage}
             value={"exploreCrena"}
-            title={"EXPLORE THE INNERMOST"}
+            title={"THE INNERMOST"}
+          ></MappedLink>
+          <MappedLink
+            page={page}
+            setPage={setPage}
+            value={"blumsbrew"}
+            title={"BLUMSBREW"}
           ></MappedLink>
           <MappedLink
             page={page}
             setPage={setPage}
             value={"freeShortStory"}
-            title={"FREE SHORT STORY"}
+            title={"SHORT STORY"}
           ></MappedLink>
         </Navigation>
         <Navigation className={"hideOnDesktop"}>
@@ -87,6 +94,7 @@ const App = () => {
             {page === "theConsortsRuse" && <TheConsortsRuse></TheConsortsRuse>}
             {page == "exploreElixirs" && <ExploreElixirs></ExploreElixirs>}
             {page == "exploreCrena" && <ExploreCrena></ExploreCrena>}
+            {page == "blumsbrew" && <Blumsbrew></Blumsbrew>}
             {page == "freeShortStory" && <FreeShortStory></FreeShortStory>}
             {page == "firstChapter" && <FirstChapter></FirstChapter>}
           </Interior>
@@ -163,7 +171,7 @@ const Navigation = styled.div`
 
 const Link = styled.div`
   color: var(--secondary);
-  width: 200px;
+  width: 140px;
   cursor: pointer;
   opacity: 0.5;
 `;

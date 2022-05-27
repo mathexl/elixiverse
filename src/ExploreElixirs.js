@@ -232,8 +232,9 @@ const ElixirContent = styled.div`
 
   p {
     margin-top: 0px;
-    font-size: 18px;
+    font-size: 16px;
     color: var(--black);
+    line-height: 24px;
     font-weight: 300;
     span {
       color: var(--secondary);
