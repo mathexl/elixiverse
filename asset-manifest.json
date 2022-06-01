@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bfabbffe.chunk.css",
-    "main.js": "/static/js/main.147e72c2.chunk.js",
-    "main.js.map": "/static/js/main.147e72c2.chunk.js.map",
+    "main.js": "/static/js/main.dfd7148b.chunk.js",
+    "main.js.map": "/static/js/main.dfd7148b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b11c32e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.b11c32e4.js.map",
     "static/js/2.96d2d82d.chunk.js": "/static/js/2.96d2d82d.chunk.js",
@@ -13,11 +13,12 @@
     "static/css/main.bfabbffe.chunk.css.map": "/static/css/main.bfabbffe.chunk.css.map",
     "static/js/2.96d2d82d.chunk.js.LICENSE.txt": "/static/js/2.96d2d82d.chunk.js.LICENSE.txt",
     "static/media/blumsbrew.fb877e1b.png": "/static/media/blumsbrew.fb877e1b.png",
-    "static/media/cover.1cabec68.jpg": "/static/media/cover.1cabec68.jpg",
+    "static/media/cover.0b070ede.jpg": "/static/media/cover.0b070ede.jpg",
     "static/media/ferashin.ef25ad80.png": "/static/media/ferashin.ef25ad80.png",
     "static/media/innermost.1502c740.svg": "/static/media/innermost.1502c740.svg",
     "static/media/kisra.8c56e148.svg": "/static/media/kisra.8c56e148.svg",
     "static/media/logo.11e34662.svg": "/static/media/logo.11e34662.svg",
+    "static/media/map.1518fb42.svg": "/static/media/map.1518fb42.svg",
     "static/media/pria.b61cd06c.png": "/static/media/pria.b61cd06c.png",
     "static/media/smoke.c3b5cf8d.png": "/static/media/smoke.c3b5cf8d.png",
     "static/media/spade.ee5bf167.png": "/static/media/spade.ee5bf167.png"
@@ -26,6 +27,6 @@
     "static/js/runtime-main.b11c32e4.js",
     "static/js/2.96d2d82d.chunk.js",
     "static/css/main.bfabbffe.chunk.css",
-    "static/js/main.147e72c2.chunk.js"
+    "static/js/main.dfd7148b.chunk.js"
   ]
 }
