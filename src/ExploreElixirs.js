@@ -47,8 +47,7 @@ export const ExploreElixirs = () => {
           </h1>
 
           <p>
-            Discover them in the upcoming Elixiverse debut novel, the Consort's
-            Ruse{" "}
+            Discover them in the upcoming Elixiverse debut novel, The Teapot's Trinity{" "}
           </p>
           <p></p>
         </ElixirContent>

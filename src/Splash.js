@@ -7,7 +7,7 @@ export const Splash = () => {
       <h1>Welcome to the Elixiverse</h1>
       <h2>Created by M. Pregasen</h2>
       <p>
-        Sign up for updates on the Elixiverse’s debut novel, the Consort’s Ruse,
+        Sign up for updates on the Elixiverse’s debut novel, The Teapot's Trinity,
         coming in late 2023.
       </p>
       <CTA href={"http://eepurl.com/hPlauf"} target="_blank">Sign Up for Updates</CTA>

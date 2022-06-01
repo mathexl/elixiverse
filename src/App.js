@@ -6,12 +6,13 @@ import FontLoader from "./Fonts";
 import { Graphics } from "./Graphics";
 import { Splash } from "./Splash";
 import React from "react";
-import { TheConsortsRuse } from "./TheConsortsRuse";
+import { TheTeapotsTrinity } from "./TheTeapotsTrinity";
 import { ExploreElixirs } from "./ExploreElixirs";
 import { ExploreCrena } from "./ExploreCrena";
 import { FreeShortStory } from "./FreeShortStory";
 import { Blumsbrew } from "./Blumsbrew";
 import { FirstChapter } from "./FirstChapter";
+import { ExploreDaisha } from "./ExploreDaisha";
 
 const App = () => {
   FontLoader();
@@ -27,7 +28,7 @@ const App = () => {
           <MappedLink
             page={page}
             setPage={setPage}
-            value={"theConsortsRuse"}
+            value={"theTeapotsTrinity"}
             title={"FIRST BOOK"}
           ></MappedLink>
           <MappedLink
@@ -42,11 +43,19 @@ const App = () => {
             value={"exploreElixirs"}
             title={"EXPLORE ELIXIRS"}
           ></MappedLink>
+          {false && (
+            <MappedLink
+              page={page}
+              setPage={setPage}
+              value={"exploreCrena"}
+              title={"THE INNERMOST"}
+            ></MappedLink>
+          )}
           <MappedLink
             page={page}
             setPage={setPage}
-            value={"exploreCrena"}
-            title={"THE INNERMOST"}
+            value={"exploreDaisha"}
+            title={"DAISHA"}
           ></MappedLink>
           <MappedLink
             page={page}
@@ -54,18 +63,12 @@ const App = () => {
             value={"blumsbrew"}
             title={"BLUMSBREW"}
           ></MappedLink>
-          <MappedLink
-            page={page}
-            setPage={setPage}
-            value={"freeShortStory"}
-            title={"SHORT STORY"}
-          ></MappedLink>
         </Navigation>
         <Navigation className={"hideOnDesktop"}>
           <MappedIcon
             page={page}
             setPage={setPage}
-            value={"theConsortsRuse"}
+            value={"theTeapotsTrinity"}
             className={"fas fa-book-spells"}
           ></MappedIcon>
           <MappedIcon
@@ -91,9 +94,10 @@ const App = () => {
         <Exterior>
           <Interior>
             {page === "splash" && <Splash></Splash>}
-            {page === "theConsortsRuse" && <TheConsortsRuse></TheConsortsRuse>}
+            {page === "theTeapotsTrinity" && <TheTeapotsTrinity></TheTeapotsTrinity>}
             {page == "exploreElixirs" && <ExploreElixirs></ExploreElixirs>}
             {page == "exploreCrena" && <ExploreCrena></ExploreCrena>}
+            {page == "exploreDaisha" && <ExploreDaisha></ExploreDaisha>}
             {page == "blumsbrew" && <Blumsbrew></Blumsbrew>}
             {page == "freeShortStory" && <FreeShortStory></FreeShortStory>}
             {page == "firstChapter" && <FirstChapter></FirstChapter>}

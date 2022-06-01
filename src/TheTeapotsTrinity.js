@@ -4,12 +4,12 @@ import { GeneralContent } from "./Styles";
 import cover from "./img/cover.jpg";
 
 
-export const TheConsortsRuse = () => {
+export const TheTeapotsTrinity = () => {
   return (
-    <TheConsortsRuseDiv>
-      <TheConsortsRuseCover><img src={cover}></img></TheConsortsRuseCover>
-      <TheConsortsRuseContent>
-        <h1>The Consort’s Ruse</h1>
+    <TheTeapotsTrinityDiv>
+      <TheTeapotsTrinityCover><img src={cover}></img></TheTeapotsTrinityCover>
+      <TheTeapotsTrinityContent>
+        <h1>The Teapot's Trinity</h1>
         <h2>
           Book 1 of the Mira’s Miracles series
           <span className={"hideOnMobile"}> set in the Elixiverse</span>.
@@ -26,12 +26,12 @@ export const TheConsortsRuse = () => {
         <p>98,551 words, 377 pages. </p>
         <br></br>
         <CTA href="http://eepurl.com/hPlauf" target="_blank">Sign Up for Updates</CTA>
-      </TheConsortsRuseContent>
-    </TheConsortsRuseDiv>
+      </TheTeapotsTrinityContent>
+    </TheTeapotsTrinityDiv>
   );
 };
 
-const TheConsortsRuseDiv = styled.div`
+const TheTeapotsTrinityDiv = styled.div`
   width: 100%;
   max-width: 1000px;
   margin-top: 40px;
@@ -53,7 +53,7 @@ const TheConsortsRuseDiv = styled.div`
   }
 `;
 
-const TheConsortsRuseCover = styled.div`
+const TheTeapotsTrinityCover = styled.div`
   width: 300px;
   border: 5px white solid;
   color: white;
@@ -73,7 +73,7 @@ const TheConsortsRuseCover = styled.div`
   }
 `;
 
-const TheConsortsRuseContent = styled(GeneralContent)`
+const TheTeapotsTrinityContent = styled(GeneralContent)`
   width: calc(100% - 310px);
   padding-left: 50px;
   box-sizing: border-box;
